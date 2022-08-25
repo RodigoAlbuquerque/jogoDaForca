@@ -1,48 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="forca.css">
     <title>Document</title>
 </head>
 <body>
- 
-   <div class="container">
-        <img src='' class="boneco"/>
+    <div class="container">
+        <div class="forca">
+            <img id='boneco' src="" alt="">
+        </div>
         <div class="palavra">
-            <span class="letras" id="l0">_</span>
-            <span class="letras" id="l1">_</span>
-            <span class="letras" id="l2">_</span>
-            <span class="letras" id="l3">_</span>
-            <span class="letras" id="l4">_</span>
-            <span class="letras" id="l5">_</span>
-            <span class="letras" id="l6">_</span>
-            <span class="letras" id="l7">_</span>
-            <span class="letras" id="l8">_</span>
-            <span class="letras" id="l9">_</span>
-            <span class="letras" id="l10">_</span>
-            <span class="letras" id="l11">_</span>
-            <span class="letras" id="l12">_</span>
-            <span class="letras" id="l13">_</span>
-            <span class="letras" id="l14">_</span>
-            <span class="letras" id="l15">_</span>
-            <span class="letras" id="l16">_</span>
-            <span class="letras" id="l17">_</span>
-            <span class="letras" id="l18">_</span>
-            <span class="letras" id="l19">_</span>
-       </div>
-       <div class="tecla">
-           <p>Digite uma Letra</p>
-           <input type="text" size="1" maxlength="1" id="letra-teste" >
-       </div>
-       <div class="btns">
-           <input type="button" class="verificar" value="Verificar">
-           <input type="button" value="Nova Palavra" id="nv-jogo">
-       </div>
-   </div>
-    <script src="index.js"></script>
+            <input type="text" maxlength="0" id="l0" class="areaRes">
+            <input type="text" maxlength="0" id="l1" class="areaRes">
+            <input type="text" maxlength="0" id="l2" class="areaRes">
+            <input type="text" maxlength="0" id="l3" class="areaRes">
+            <input type="text" maxlength="0" id="l4" class="areaRes">
+            <input type="text" maxlength="0" id="l5" class="areaRes">
+            <input type="text" maxlength="0" id="l6" class="areaRes">
+            <input type="text" maxlength="0" id="l7" class="areaRes">
+            <input type="text" maxlength="0" id="l8" class="areaRes">
+            <input type="text" maxlength="0" id="l9" class="areaRes">
+            <input type="text" maxlength="0" id="l10" class="areaRes">
+            <input type="text" maxlength="0" id="l11" class="areaRes">
+            <input type="text" maxlength="0" id="l12" class="areaRes">
+            <input type="text" maxlength="0" id="l13" class="areaRes">
+            <input type="text" maxlength="0" id="l14" class="areaRes">
+            <input type="text" maxlength="0" id="l15" class="areaRes">
+            <input type="text" maxlength="0" id="l16" class="areaRes">
+            <input type="text" maxlength="0" id="l17" class="areaRes">
+            <input type="text" maxlength="0" id="l18" class="areaRes">
+            <input type="text" maxlength="0" id="l19" class="areaRes">
+        </div>
+        <div class="letras">
+            <div id="1" class="letra">A</div>
+            <div id="2" class="letra">B</div>
+            <div id="3" class="letra">C</div>
+            <div id="4" class="letra">D</div>
+            <div id="5" class="letra">E</div>
+            <div id="6" class="letra">F</div>
+            <div id="7" class="letra">G</div>
+            <div id="8" class="letra">H</div>
+            <div id="9" class="letra">I</div>
+            <div id="10" class="letra">J</div>
+            <div id="11" class="letra">K</div>
+            <div id="12" class="letra">L</div>
+            <div id="13" class="letra">M</div>
+            <div id="14" class="letra">N</div>
+            <div id="15" class="letra">O</div>
+            <div id="16" class="letra">P</div>
+            <div id="17" class="letra">Q</div>
+            <div id="18" class="letra">R</div>
+            <div id="19" class="letra">S</div>
+            <div id="20" class="letra">T</div>
+            <div id="21" class="letra">W</div>
+            <div id="22" class="letra">U</div>
+            <div id="23" class="letra">V</div>
+            <div id="24" class="letra">X</div>
+            <div id="25" class="letra">Y</div>
+            <div id="26" class="letra">Z</div>
+            <div id="27" class="letra">Ç</div>
+            <div id="28" class="letra">🎮</div>
+        </div>
+    </div>
+    <div class="btn" id="msg"><button id="botao">Jogar Novamente</button></div>
+    <script src="forca.js"></script>
 </body>
 </html>
